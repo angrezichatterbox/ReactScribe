@@ -1,0 +1,46 @@
+textarea {
+  resize: none;
+  height: auto;
+  width: 260px;
+  background-color: #E8EC67;
+  color: black;
+  border-radius: 5%;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: auto;
+  gap: 50px;
+
+} 
+
+body {
+
+  zoom: 110%;
+  width: 65%;
+
+  margin-left: 250px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+h1 {
+  margin: 20px 0;
+  font-size: 2em;
+  align-items: middle;
+}
+button {
+  margin-left: 20px;
+}
+
+.past-due {
+  border: 2px solid red; 
+}
+
+.past-due-textarea {
+  color: red; 
+}
